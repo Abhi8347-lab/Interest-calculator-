@@ -1,23 +1,15 @@
 # Interest-calculator- 
+Compound & Simple Interest Calculator
 
-p=float(input('Enter the principal amount:'))
-while p<=0 :
-   
-    print('Principal amount invalid')
-    p=float(input('Enter the principal amount:'))
-r =float(input('Enter the rate of interest:'))
-while r<=0 :  
-      
-     print('rate of interest invalid')
-     r =float(input('Enter the rate of interest:'))
-t =int(input('Enter the time (in years):'))
-while t<=0 :
-    
-     print('time is invalid')
-     t =int(input('Enter the time (in years):'))
-else:     
-     A= p*pow((1+r/100),t)
-     Compound_interest = A-p
-     print(f' The compound interest after {t} years is ₹{Compound_interest} ')
-     A= (p*r*t)/100
-     print(f'The simple interest after {t} years is ₹{A}')
+A Python-based financial calculator that computes both Compound Interest and Simple Interest based on user input.
+
+Features--:
+1) Validates user input for
+2)Principal Amount
+3)Interest Rate
+4)Time Period
+5)Calculates:
+6)Compound Interest
+7)Simple Interest
+8)Displays both exact and rounded values.
+9)Beginner-friendly Python project.
